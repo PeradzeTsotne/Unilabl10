@@ -1,0 +1,140 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.main-container {
+    margin: 0 auto;
+    padding: 39px;
+}
+
+.flex-d {
+    display: flex;
+}
+
+.navbar-ul,
+.navigation-bar {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.upper-txt {
+    text-transform: uppercase;
+}
+
+.navbar-li a {
+    margin: 50px;
+    color: #707070;
+    font-size: 20px;
+
+    @font-face {
+        font-family: "ITC Zapf Dingbats";
+        src: url("ZapfDingbats.woff2") format("woff2"),
+            url("ZapfDingbats.woff") format("woff");
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+}
+
+.navbar-li a:hover {
+    text-decoration: underline;
+    animation: ease-in 3s;
+}
+
+.img-header {
+    background-image: url(../img/map.png);
+    background-position: center;
+    max-width: 1640px;
+    width: 100%;
+    height: 608px;
+    background-repeat: no-repeat;
+    background-size: inherit;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Forms */
+
+
+.input-grup {
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.f-group {
+    margin-bottom: 7px;
+}
+
+.input-form {
+    max-width: 730px;
+    width: 100%;
+    height: 50px;
+    border: none;
+    box-shadow: 1px 1px 1px rgb(56, 48, 48);
+    border: gray 1px solid;
+    opacity: 0.2;
+}
+
+.input-form:focus {
+    outline: none;
+}
+
+.input-form::placeholder {
+    padding: 5px;
+    text-transform: capitalize;
+}
+
+/* Footer */
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2e2e2e;
+    padding: 40px;
+    color: white;
+}
+
+.footer-wrapper h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+
+    @font-face {
+        font-family: "Archy EDT";
+        src: url("ArchyEDT-Bold.woff2") format("woff2"),
+            url("ArchyEDT-Bold.woff") format("woff");
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+    }
+}
+
+.footer-wrapper p {
+    font-size: 13px;
+
+    @font-face {
+        font-family: "ITC Zapf Dingbats";
+        src: url("ZapfDingbats.woff2") format("woff2"),
+            url("ZapfDingbats.woff") format("woff");
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+}
+
+.social {
+    font-size: 35px;
+    background-color: white;
+    border: solid 2px white;
+    border-radius: 50%;
+    color: black;
+    margin-right: 10px;
+    height: 40px;
+}
